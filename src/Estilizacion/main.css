@@ -1,0 +1,56 @@
+.mainContainer {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.fraseMain {
+    text-align: center;
+    color: #ffffff;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+.pMain {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-size: x-large;
+}
+
+.perfilFoto {
+    width: 400px;
+    object-fit:cover;
+    border-radius: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .mainContainer {
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .fraseMain {
+        text-align: center;
+        color: #ffffff;
+        filter: drop-shadow(5px 5px 5px black);
+        border-radius: 5px;
+    }
+
+    .pMain {
+        color: #432874;
+        text-align: center;
+        margin: 0;
+    }
+
+    .perfilFoto {
+        width: 200px;
+        object-fit: cover;
+
+    }
+
+}

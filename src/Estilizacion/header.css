@@ -1,0 +1,131 @@
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.tituloContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloName1 {
+    padding-top: 20px;
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+
+.tituloName2 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    border-bottom: solid 2px white;
+}
+
+.buttonContainerHeader {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.headerButton1 {
+    margin: 5px;
+    background: white;
+    color: #432874;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    transition: 0.2s;
+}
+
+.headerButton1:hover {
+    background: none;
+    color: white;
+}
+
+.headerButton2 {
+    margin: 5px;
+    background: white;
+    color: #432874;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    transition: 0.2s;
+}
+
+.headerButton2:hover {
+    background: none;
+    color: white;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .tituloContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tituloName1 {
+        padding-top: 20px;
+        margin: 0;
+        font-size: 40px;
+        color: white;
+    }
+
+    .tituloName2 {
+        margin: 0;
+        font-size: 20px;
+        color: white;
+        border-radius: 3px;
+        border-bottom: solid 2px white;
+    }
+
+    .buttonContainerHeader {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .headerButton1 {
+        margin: 5px;
+        background: white;
+        color: #432874;
+        border: none;
+        border-radius: 10px;
+        font-size: large;
+        transition: 0.2s;
+    }
+
+    .headerButton1:hover {
+        background: none;
+        color: white;
+    }
+
+    .headerButton2 {
+        margin: 5px;
+        background: white;
+        color: #432874;
+        border: none;
+        border-radius: 10px;
+        font-size: large;
+        transition: 0.2s;
+    }
+
+    .headerButton2:hover {
+        background: none;
+        color: white;
+    }
+
+}

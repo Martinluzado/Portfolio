@@ -1,0 +1,59 @@
+.footerContainer{
+    align-items: center;
+    text-align: center;
+    background-color: #432874;
+    
+}
+.footerContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.pFooter{
+    color: white;
+    text-align: center;
+}
+.cvButton{
+    margin: 5px;
+ background: white;
+ color: #432874;   
+ border: none;
+ border-radius: 10px;
+ font-size: large;
+ margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 600px) {
+.footerContainer{
+    align-items: center;
+    text-align: center;
+    background-color: #432874;
+    
+}
+.footerContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.pFooter{
+    color: white;
+    text-align: center;
+}
+.cvButton{
+    margin: 5px;
+ background: white;
+ color: #432874;   
+ border: none;
+ border-radius: 10px;
+ font-size: large;
+ margin-bottom: 30px;
+}
+ }

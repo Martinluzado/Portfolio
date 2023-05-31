@@ -45,12 +45,13 @@
         color: #432874;
         text-align: center;
         margin: 0;
+        font-size: medium;
     }
 
     .perfilFoto {
         width: 200px;
         object-fit: cover;
-
+        border-radius: 0%;
     }
 
 }

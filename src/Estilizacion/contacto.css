@@ -70,7 +70,7 @@
     #email {
         border: 2px solid #818479;
         border-radius: 10px;
-        padding: 5px;
+        margin: 0;
         margin-bottom: 10px;
         color: #818479;
         font-size: medium;
@@ -80,6 +80,7 @@
         text-align: start;
         border: 2px solid #818479;
         border-radius: 10px;
+        margin: 0;
         margin-bottom: 10px;
         text-decoration: none;
         color: #818479;
@@ -91,6 +92,8 @@
         background: #818479;
         color: white;
         border: none;
+        margin-right: 30%;
+        margin-left: 30%;
         border-radius: 10px;
         font-size: large;
         transition: 0.1s;

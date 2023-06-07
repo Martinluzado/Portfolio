@@ -35,26 +35,11 @@
     margin-top: 1%;
 }
 
-.headerButton1 {
-    margin: 5px;
-    background: white;
-    color: #432874;
-    border: none;
-    border-radius: 10px;
-    font-size: large;
-    transition: 0.2s;
-}
-
-.headerButton1:hover {
-    background: none;
-    color: white;
-}
-
 .headerButton2 {
     margin: 5px;
-    background: white;
-    color: #432874;
-    border: none;
+    background: rgb(255, 255, 255);
+    color: #818479;
+    border: 2px solid #818479;
     border-radius: 10px;
     font-size: large;
     transition: 0.2s;
@@ -78,15 +63,15 @@
     }
 
     .tituloName1 {
-        padding-top: 20px;
+        padding-top: 1rem;
         margin: 0;
-        font-size: 40px;
+        font-size: xx-large;
         color: white;
     }
 
     .tituloName2 {
         margin: 0;
-        font-size: 20px;
+        font-size: medium;
         color: white;
         border-radius: 3px;
         border-bottom: solid 2px white;
@@ -95,31 +80,16 @@
     .buttonContainerHeader {
         display: flex;
         justify-content: center;
-        margin-top: 10%;
-    }
-
-    .headerButton1 {
-        margin: 5px;
-        background: white;
-        color: #432874;
-        border: none;
-        border-radius: 10px;
-        font-size: large;
-        transition: 0.2s;
-    }
-
-    .headerButton1:hover {
-        background: none;
-        color: white;
+        margin-top: 2rem;
     }
 
     .headerButton2 {
         margin: 5px;
-        background: white;
-        color: #432874;
-        border: none;
+        background: rgb(255, 255, 255);
+        color: #818479;
+        border: 2px solid #818479;
         border-radius: 10px;
-        font-size: large;
+        font-size: medium;
         transition: 0.2s;
     }
 

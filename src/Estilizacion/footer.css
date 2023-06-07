@@ -1,7 +1,7 @@
 .footerContainer{
     align-items: center;
     text-align: center;
-    background-color: #432874;
+    background-color: #818479;
     
 }
 .footerContainer2{
@@ -19,7 +19,7 @@
 .cvButton{
     margin: 5px;
  background: white;
- color: #432874;   
+ color: #818479;   
  border: none;
  border-radius: 10px;
  font-size: large;
@@ -32,7 +32,7 @@
 .footerContainer{
     align-items: center;
     text-align: center;
-    background-color: #432874;
+    background-color: #818479;
     
 }
 .footerContainer2{
@@ -46,14 +46,5 @@
 .pFooter{
     color: white;
     text-align: center;
-}
-.cvButton{
-    margin: 5px;
- background: white;
- color: #432874;   
- border: none;
- border-radius: 10px;
- font-size: large;
- margin-bottom: 30px;
 }
  }

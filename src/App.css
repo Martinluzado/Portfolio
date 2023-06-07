@@ -6,16 +6,18 @@ body{
 .skewed {
   position: absolute;
   width: 100vw;
-  height: 70%;
+  height: 33%;
   z-index: -1;
-  background-color: #432874;
+  background-color:#818479;
+  transform: skewY(-6deg);
+  transform-origin: top left;
 }
 
 @media (max-width: 600px) {
   body{
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   .skewed {
     position: absolute;
@@ -24,8 +26,8 @@ body{
     right: 0;
     left: 0;
     width: 100%;
-    height: 35%;
-    background: #432874;
+    height: 12rem;
+    background: #818479;
     z-index: -1;
     transform: skewY(-6deg);
     transform-origin: top left;

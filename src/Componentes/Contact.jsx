@@ -6,7 +6,7 @@ import { useForm, ValidationError } from "@formspree/react";
 function Contact() {
   const [state, handleSubmit] = useForm("xzbqqlav");
   if (state.succeeded) {
-    return <p style={{textAlign:"center"}}>Thanks!</p>;
+    return <p style={{textAlign:"center"}}>Thanks for your message</p>;
   }
   return (
     <form
@@ -16,19 +16,14 @@ function Contact() {
       className="Form"
     >
       <label
+      className="Label2"
         htmlFor="email"
-        style={{
-          textAlign: "center",
-          color: "#432874",
-          fontSize: "x-large",
-          marginBottom: "10px",
-        }}
       >
-        Send me a message!<AiFillMessage style={{color:"#432874"}}/>
+        Contact me
       </label>
-      <input placeholder="email" id="email" type="email" name="email" />
+      <input placeholder="Your email" id="email" type="email" name="email" />
       <ValidationError  prefix="Email" field="email" errors={state.errors} />
-      <textarea placeholder="message" id="message" name="message" />
+      <textarea placeholder="Message" id="message" name="message" />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button id="button" type="submit" disabled={state.submitting}>
         Submit

@@ -3,6 +3,7 @@
     text-align: center;
     background-color: #432874;
     border-top: 5px solid #59359a;
+    filter: drop-shadow(0px 0px 10px #59359a );
 }
 .footerContainer2{
     display: flex;
@@ -15,6 +16,7 @@
 .pFooter{
     color: white;
     text-align: center;
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.500) );
 }
 .cvButton{
     margin: 5px;
@@ -34,6 +36,7 @@
     text-align: center;
     background-color: #432874;
     border-top: 5px solid #59359a;
+    filter: drop-shadow(0px 0px 10px #59359a );
 }
 .footerContainer2{
     display: flex;
@@ -46,5 +49,6 @@
 .pFooter{
     color: white;
     text-align: center;
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.500) );
 }
  }

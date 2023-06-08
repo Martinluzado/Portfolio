@@ -15,6 +15,7 @@
     margin-top: 2rem;
     border-radius: 10px;
     border:  5px solid #59359a;
+    filter: drop-shadow(0px 0px 10px #59359a );
 }
 .buttonNav {
     background: #432874;
@@ -37,11 +38,10 @@
 .a1 {
     font-size: 80px;
     color: white;
-
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.500) );
 }
 
 .PP {
-    background-color: #432874;
     border-radius: 10px;
     color: white;
     text-align: center;
@@ -50,21 +50,21 @@
     margin-bottom: 10rem;
     margin-left: 45%;
     margin-right: 45%;
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.500) );
 }
 .H3oo {
     font-size: xx-large;
-    background-color: #432874;
     border-radius: 10px;
     color: white;
     text-align: center;
     margin-top: 2rem;
-
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.500) );
 }
 
 @media (max-width: 600px) {
     .H3oo {
         font-size: xx-large;
-        background-color: #432874;
+        filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.500) );
         border-radius: 10px;
         color: white;
         text-align: center;
@@ -80,6 +80,7 @@
     margin-top: 2rem;
     border-radius: 10px;
     border:  5px solid #59359a;
+    filter: drop-shadow(0px 0px 10px #59359a );
 }
 
 .tecnologiasContainer {
@@ -117,7 +118,7 @@
 }
 
 .PP {
-    background-color: #432874;
+    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.500) );
     border-radius: 10px;
     color: white;
     text-align: center;

@@ -8,6 +8,7 @@
 
 #email {
     border:  2px solid #59359a;
+    filter: drop-shadow(0px 0px 5px #59359a );
     background:#432874;
     border-radius: 10px;
     padding: 5px;
@@ -21,6 +22,7 @@
 #message {
     text-align: start;
     border:  2px solid #59359a;
+    filter: drop-shadow(0px 0px 5px #59359a );
     background:#432874;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -36,6 +38,7 @@
     margin: 5px;
     background: #432874;
     border:  2px solid #59359a;
+    filter: drop-shadow(0px 0px 5px #59359a );
     color: white;
     border-radius: 10px;
     font-size: xx-large;
@@ -60,6 +63,7 @@
         margin-left:40%;
         margin-right:40%;
         border:  2px solid #59359a;
+        filter: drop-shadow(0px 0px 5px #59359a );
 }
 
 @media (max-width: 600px) {

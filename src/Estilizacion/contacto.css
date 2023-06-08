@@ -7,34 +7,36 @@
 }
 
 #email {
-    border: 2px solid #818479;
+    border:  2px solid #59359a;
+    background:#432874;
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 10px;
     margin-left: 35%;
     margin-right: 35%;
-    color: #818479;
+    color: white;
     font-size: large;
 }
 
 #message {
     text-align: start;
-    border: 2px solid #818479;
+    border:  2px solid #59359a;
+    background:#432874;
     border-radius: 10px;
     margin-bottom: 10px;
     margin-left: 35%;
     margin-right: 35%;
     padding-bottom: 5%;
     text-decoration: none;
-    color: #818479;
+    color: white;
     font-size: large;
 }
 
 #button {
     margin: 5px;
-    background: #818479;
+    background: #432874;
+    border:  2px solid #59359a;
     color: white;
-    border: none;
     border-radius: 10px;
     font-size: xx-large;
     transition: 0.1s;
@@ -44,7 +46,8 @@
 
 #button:hover {
     background: none;
-    color: #818479;
+    color: #432874;
+    border:  2px solid #59359a;
 }
 
 .Label2 {
@@ -52,10 +55,11 @@
         color:white;
         font-size:xx-large;
         margin-bottom:10px;
-        background:#818479;
+        background:#432874;
         border-radius:10px;
         margin-left:40%;
         margin-right:40%;
+        border:  2px solid #59359a;
 }
 
 @media (max-width: 600px) {
@@ -68,30 +72,30 @@
     }
 
     #email {
-        border: 2px solid #818479;
+        border:  2px solid #59359a;
         border-radius: 10px;
         margin: 0;
         margin-bottom: 10px;
-        color: #818479;
+        color: white;
         font-size: medium;
     }
 
     #message {
         text-align: start;
-        border: 2px solid #818479;
+        border:  2px solid #59359a;
         border-radius: 10px;
         margin: 0;
         margin-bottom: 10px;
         text-decoration: none;
-        color: #818479;
+        color: white;
         font-size: large;
     }
 
     #button {
         margin: 5px;
-        background: #818479;
+        background: #432874;
         color: white;
-        border: none;
+        border:  2px solid #59359a;
         margin-right: 30%;
         margin-left: 30%;
         border-radius: 10px;
@@ -101,16 +105,17 @@
 
     #button:hover {
         background: none;
-        color: #818479;
+        color: white;
     }
     .Label2 {
         text-align:center;
             color:white;
             font-size:x-large;
             margin-bottom:10px;
-            background:#818479;
+            background:#432874;
             border-radius:10px;
             margin-left:25%;
             margin-right:25%;
+            border:  2px solid #59359a;
     }
 }

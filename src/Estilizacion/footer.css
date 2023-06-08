@@ -1,8 +1,8 @@
 .footerContainer{
     align-items: center;
     text-align: center;
-    background-color: #818479;
-    
+    background-color: #432874;
+    border-top: 5px solid #59359a;
 }
 .footerContainer2{
     display: flex;
@@ -19,7 +19,7 @@
 .cvButton{
     margin: 5px;
  background: white;
- color: #818479;   
+ color: #432874;   
  border: none;
  border-radius: 10px;
  font-size: large;
@@ -32,8 +32,8 @@
 .footerContainer{
     align-items: center;
     text-align: center;
-    background-color: #818479;
-    
+    background-color: #432874;
+    border-top: 5px solid #59359a;
 }
 .footerContainer2{
     display: flex;

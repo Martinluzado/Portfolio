@@ -1,63 +1,60 @@
 .mainContainer {
-    margin-top: 3%;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
-
+    background-color: #432874;
+    border-radius: 10px;
+    margin-left:5%;
+    margin-right:5%;
+    border:  5px solid #59359a;
 }
 
 .fraseMain {
     text-align: center;
     color: white;
-    background-color: #818479;
-    margin-left: 40%;
-    margin-right: 40%;
-    border-radius: 10px;
+    margin: 20px;
     font-size: xx-large;
 }
 
 .pMain {
-    color: #818479;
+    color: white;
     text-align: center;
-    margin: 0;
+    margin: 10px;
     font-size: x-large;
 }
 
 .perfilFoto {
-    width: 400px;
-    object-fit:cover;
-    border-radius: 100%;
+    display: none;
 }
 
 
 @media (max-width: 600px) {
     .mainContainer {
-        margin-top: 2rem;
+        margin-top: 5rem;
         display: flex;
         justify-content: center;
-
+        background-color: #432874;
+        border-radius: 10px;
+        margin-left:5% ;
+        margin-right:5% ;
+        border:  5px solid #59359a;
     }
 
     .fraseMain {
         text-align: center;
         color: white;
-        background-color: #818479;
-        margin-left: 10%;
-        margin-right: 10%;
-        border-radius: 10px;
+        margin: 10px;
     }
 
     .pMain {
-        color: #818479;
+        color: white;
         text-align: center;
-        margin: 0;
-        font-size: medium;
+        margin: 10px;
+        font-size: large;
     }
 
     .perfilFoto {
-        width: 150px;
-        object-fit: cover;
-        border-radius: 0%;
-        filter:contrast(70%);
+        display: none;
     }
 
 }

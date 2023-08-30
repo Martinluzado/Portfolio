@@ -1,20 +1,21 @@
 import React from "react";
-import { BsJournalCode } from "react-icons/bs";
-import { FiDownload } from "react-icons/fi";
-import pdfFile from '../PDFCV/CV2.pdf'
+ import { BsJournalCode } from "react-icons/bs";
+ import { FiDownload } from "react-icons/fi";
+ import pdfFile from '../PDFCV/CV2.pdf'
+ import Logo from '../Imagenes/LogoSinFondo.png'
 import "../Estilizacion/header.css";
 function Header() {
-  const handleDownloadPDF = () => {
-    const link = document.createElement('a');
-    link.href = pdfFile;
-    link.download = 'archivo.pdf'; // Nombre del archivo descargado
-    link.click();
-  };
+   const handleDownloadPDF = () => {
+   const link = document.createElement('a');
+     link.href = pdfFile;
+     link.download = 'archivo.pdf'; // Nombre del archivo descargado
+     link.click();
+   };
   return (
     <div className="general">
-      <div className="tituloContainer">
-        <h1 className="tituloName1">Martín Luzardo</h1>
-        <p className="tituloName2">Full stack developer</p>
+     <section className='HeaderGeneral'>
+        <div class="skewed">  <div className="tituloContainer">
+        <img className="Logo" src={Logo} alt="Logo" />
       </div>
       <div className="buttonContainerHeader">  
         <a href="https://github.com/Martinluzado?tab=repositories">
@@ -24,7 +25,8 @@ function Header() {
           </button>
         </a>     
         <button className='headerButton2' onClick={handleDownloadPDF}>Curriculum<FiDownload /></button>   
-      </div>
+      </div></div>
+      </section>
     </div>
   );
 }

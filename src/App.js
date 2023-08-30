@@ -5,13 +5,13 @@ import Nav from './Componentes/nav';
 import Contact from './Componentes/Contact';
 import Footer from './Componentes/footer';
 
+
+
 function App() {
+ 
   return (
     <div className="App">
-      <section>
-        <div class="skewed"></div>
-      </section>
-      <Header />
+      <Header/>
       <Main/>
       <Nav/>
       <Contact/>

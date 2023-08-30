@@ -1,9 +1,15 @@
 .footerContainer{
     align-items: center;
     text-align: center;
-    background-color: #432874;
-    border-top: 5px solid #59359a;
-    filter: drop-shadow(0px 0px 10px #59359a );
+    background: rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .footerContainer2{
     display: flex;
@@ -16,12 +22,11 @@
 .pFooter{
     color: white;
     text-align: center;
-    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.500) );
 }
 .cvButton{
     margin: 5px;
  background: white;
- color: #432874;   
+ color: #000000;   
  border: none;
  border-radius: 10px;
  font-size: large;
@@ -34,9 +39,15 @@
 .footerContainer{
     align-items: center;
     text-align: center;
-    background-color: #432874;
-    border-top: 5px solid #59359a;
-    filter: drop-shadow(0px 0px 10px #59359a );
+    background: rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .footerContainer2{
     display: flex;
@@ -49,6 +60,5 @@
 .pFooter{
     color: white;
     text-align: center;
-    filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.500) );
 }
  }

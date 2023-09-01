@@ -4,9 +4,6 @@
     text-align: center;
     flex-wrap: wrap;
     gap: 10%;
-    margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
 }
 .General {
     margin-left: 5%;
@@ -19,12 +16,15 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 30%;
+    height: 35rem;
+    margin-left: 35%;
 }
 .buttonNav {
     background: none;
     border-radius: 10px;
-    border: 5px solid none;
-    color: white;
+    border: none;
+    color: rgba(255, 255, 255, 0.500);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,6 +32,8 @@
     align-items: center;
     margin: 20px;
     transition: 0.1s;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
 
 .buttonNav:hover {
@@ -39,7 +41,7 @@
 }
 
 .a1 {
-    font-size: 80px;
+    font-size: 60px;
     color: white;
 }
 
@@ -50,8 +52,10 @@
     font-size: large;
     margin-top: 1rem;
     margin-bottom: 10rem;
-    margin-left: 45%;
-    margin-right: 45%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: lighter;
+    text-decoration: underline;
 }
 .H3oo {
     font-size: xx-large;
@@ -60,6 +64,7 @@
     text-align: center;
     margin-top: 2rem;
     text-transform: uppercase;
+    font-weight: lighter;
 }
 
 @media (max-width: 600px) {
@@ -85,6 +90,8 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    width: auto;
+    height: auto;
 }
 
 .tecnologiasContainer {
